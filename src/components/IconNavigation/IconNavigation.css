@@ -1,0 +1,18 @@
+/*
+ * cssnext & precss syntax
+ * BEM classes rule
+ * @see http://cssnext.io/features/
+ * @see https://github.com/jonathantneal/precss
+ */
+
+.a10-icon-navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    right: 30px;
+
+    &__item {
+        margin: 0 5px;
+    }
+}
